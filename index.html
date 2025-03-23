@@ -24,9 +24,18 @@
             position: relative;
             z-index: 2;
         }
-        .image {
+        .image-left {
             position: absolute;
             left: 10%;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 150px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #0f0;
+        }
+        .image-right {
+            position: absolute;
+            right: 10%;
             top: 50%;
             transform: translateY(-50%);
             width: 150px;
@@ -39,7 +48,8 @@
     </style>
 </head>
 <body>
-    <img src="https://m.media-amazon.com/images/I/518j4mqxNKL._UXNaN_FMjpg_QL85_.jpg" alt="Anonymous" class="image">
+    <img src="https://m.media-amazon.com/images/I/518j4mqxNKL._UXNaN_FMjpg_QL85_.jpg" alt="Anonymous Left" class="image-left">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZZqSJxh2JVahQHGzAxpU5moDs6IvLTWNBwg&s" alt="Anonymous Right" class="image-right">
     <div class="container">
         <h1>Im Anonymous</h1>
         <p>Years - 14</p>

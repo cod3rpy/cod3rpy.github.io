@@ -14,12 +14,24 @@
             color: #0f0;
             font-family: Arial, sans-serif;
             text-align: center;
+            position: relative;
         }
         .container {
             border: 2px solid #0f0;
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 0 20px #0f0;
+            position: relative;
+            z-index: 2;
+        }
+        .image {
+            position: absolute;
+            left: 10%;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 150px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #0f0;
         }
         h1, p {
             margin: 10px 0;
@@ -27,6 +39,7 @@
     </style>
 </head>
 <body>
+    <img src="https://m.media-amazon.com/images/I/518j4mqxNKL._UXNaN_FMjpg_QL85_.jpg" alt="Anonymous" class="image">
     <div class="container">
         <h1>Im Anonymous</h1>
         <p>Years - 14</p>
